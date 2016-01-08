@@ -1,5 +1,5 @@
 #Syntax Highlighting for Markdown in Vim
-*Attributed by Brooke Lester, http://www.brookelester.net/blog/2014/9/23/syntax-highlighting-for-markdown-in-vim*
+***Attributed by Brooke Lester, http://www.brookelester.net/blog/2014/9/23/syntax-highlighting-for-markdown-in-vim***
 
 When I first learned Vim, I was excited to begin writing in Markdown while composing in Vim. Some things didn't work like I hoped. Opening and creating files with my favorite Markdown filename suffix (name.md), I found that the syntax highlighting was a nightmare: weird choices, and color changes after every use of a quote mark (as with contractions like "don't" or "isn't").
 
@@ -23,8 +23,11 @@ Finally, edit that file to include the following:
 ```syntax on```
 
 " set files with extension .md to be recognized as markdown.
-```filetype on
-au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} set     filetype=markdown```
+
+```
+filetype on
+au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} set     filetype=markdown
+```
 
 The double quotes simply turn the rest of that line into a comment line.
 
