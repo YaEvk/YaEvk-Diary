@@ -2,6 +2,20 @@
 
 #### Software Apt Sources
 
+* apt.zntx.cc/
+* repo.benm.at/
+* apt.thebigboss.org/repofiles/cydia/
+* apt.saurik.com/
+* apt.so/aptso/
+* repo.hackyouriphone.org/
+* cydia.hbang.ws/
+* apt.modmyi.com/
+* repo666.ultrasn0w.com
+* apt.xsellize.com/
+* cydia.zodttd.com/repo/cydia
+* apt.feng.com/
+* apt.178.com/
+
 #### Software Lists
 
 * Activator --> System
@@ -70,6 +84,7 @@
 * MouseSupport --> Plugin
 * mysql
 * New Curses --> System
+* NewTerm --> Terminal
 * Nitrous --> HYI Tweaks
 * NoSlowAnimations --> Plugin
 * OpenSSH --> Network
