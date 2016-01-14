@@ -121,3 +121,7 @@
 * XML Parser Toolkit --> Development
 * zip
 * 7-zip (POSIX)
+
+#### About Jailbreak File Path
+You can use **find** command to match a file and find its path:
+```find -name *filename*```
